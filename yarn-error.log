@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add selenium-webdriver
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\GoodBoy\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\Users\GoodBoy\AppData\Local\Microsoft\WindowsApps;C:\Users\GoodBoy\AppData\Local\Turbo\Cmd;C:\Users\GoodBoy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\GoodBoy\AppData\Local\GitHubDesktop\bin;C:\Users\GoodBoy\AppData\Local\atom\bin;C:\Users\GoodBoy\AppData\Roaming\npm;C:\Users\GoodBoy\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\GitHub CLI;C:\Users\GoodBoy\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\GoodBoy\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\seleniumWebDrivers;C:\Users\GoodBoy\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\proxybroker;C:\Users\GoodBoy\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\proxybroker\data;C:\Users\GoodBoy\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\proxybroker-0.3.2.dist-info
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "js",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
