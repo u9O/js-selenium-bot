@@ -2,3 +2,5 @@ node_modules
 debug.log
 yarn-error.log
 BOTS
+ChromeBots
+FirefoxBots

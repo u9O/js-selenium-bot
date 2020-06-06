@@ -17,6 +17,6 @@ for i in $(seq $how_many $END); do
     start node "ChromeBots/ChromeBot-$i.js"
 done
 
-rm -rf ChromeBots
+# rm -rf ChromeBots
 
 exit 1

@@ -17,6 +17,6 @@ for i in $(seq $how_many $END); do
     start node "FirefoxBots/FirefoxBot-$i.js"
 done
 
-rm -rf FirefoxBots
+# rm -rf FirefoxBots
 
 exit 1
