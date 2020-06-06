@@ -3,16 +3,20 @@
 
 # echo STARTED
 
-rm -rf BOTS
+rm -rf ChromeBots
 
 read -p "How many BOTS you want to generat: " how_many
 
-mkdir BOTS
+mkdir ChromeBots
 
 for i in $(seq $how_many $END); do
-    cp "ChromeBot.js" "BOTS/bot-$i.js"
+    cp "ChromeBot.js" "ChromeBots/ChromeBot-$i.js"
 done
 
 for i in $(seq $how_many $END); do
-    start node "BOTS/bot-$i.js"
+    start node "ChromeBots/ChromeBot-$i.js"
 done
+
+rm -rf ChromeBots
+
+exit 1
