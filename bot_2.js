@@ -10,5 +10,3 @@ var options = {
     },
 }
 var client = webdriverio.remote(options)
-
-webdriverio.
